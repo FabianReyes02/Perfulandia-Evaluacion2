@@ -20,7 +20,7 @@ El proyecto busca remplaazar el antiguo sistema monolítico por una arquitectura
 
 ## 🛠️ Tecnologías Utilizadas
 
-> 📝 Listar las tecnologías y herramientas utilizadas en el proyecto (Spring Boot, Maven, MySQL, Postman, GitHub, etc.).
+> Spring Boot, Maven, MySQL, Postman, GitHub, Intellij, Laragon
 
 ## 🗄️ Configuración de Bases de Datos
 
@@ -33,23 +33,22 @@ El proyecto busca remplaazar el antiguo sistema monolítico por una arquitectura
 
 ## 🧑‍💻 Integrantes del Equipo
 
-| Nombre                  | Rol en el proyecto         | Servicio principal trabajado |
-|-------------------------|----------------------------|------------------------------|
-| Fabián Reyes            | (Ej: Backend - Usuarios)   | usuarioservice               |
-| Matías Vargas           | (Ej: Backend - Productos)  | productoservice              |
-| Martín Rivas            | (Ej:Repositorio)           | pedidoservice                |
+| Nombre                  | Rol en el proyecto                | Servicio principal trabajado |
+|-------------------------|-----------------------------------|------------------------------|
+| Fabián Reyes            |  Backend - Pedido - Repositorio   | pedidoservice                |
+| Matías Vargas           |  Backend - Productos - Pedido     | productoservice              |
+| Martín Rivas            |  Backend - Pedido - Usuario       | usuarioservice               |
 
 ## 📂 Estructura del Repositorio
 
-> 📝 Explicar brevemente la organización de carpetas del repositorio (por ejemplo, cada carpeta corresponde a un microservicio separado con su propio `pom.xml`).
+> Cada carpeta corresponde a un microservicio separado con su propio `pom.xml`, en este caso los microservicios son Usuario, Producto y un Pedido.
 
 ```
 
 📦 perfulandia-microservices
 ├── usuarioservice
 ├── productoservice
-├── pedidoservice (Ejemplo)
-├── notificacionservice (Ejemplo)
+├── pedidoservice 
 └── README.md
 
 ```
