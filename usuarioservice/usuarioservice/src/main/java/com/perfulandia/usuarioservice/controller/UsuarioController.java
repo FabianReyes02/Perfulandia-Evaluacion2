@@ -38,6 +38,8 @@ public class UsuarioController {
         service.eliminar(id);
     }
 
+    @PatchMapping("/{id}")
+    public void modificar(@PathVariable long id, @RequestBody Usuario usuario){
 
-
+    }
 }

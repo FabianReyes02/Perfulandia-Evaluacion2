@@ -29,4 +29,6 @@ public class UsuarioService {
     public void eliminar(long id){
         repo.deleteById(id);
     }
+    //Modificar
+
 }

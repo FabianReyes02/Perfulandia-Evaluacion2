@@ -3,6 +3,8 @@ import com.perfulandia.productservice.model.Usuario;
 import com.perfulandia.productservice.model.Producto;
 import com.perfulandia.productservice.service.ProductoService;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 //Nuevas importaciones DTO conexión al MS usuario
@@ -42,6 +44,16 @@ public class ProductoController {
     @DeleteMapping("/{id}")
     public void eliminar(@PathVariable long id){
         servicio.eliminar(id);
+    }
+    // Modificar
+    @PatchMapping("/{id}")
+    public ResponseEntity<Producto> modificar(@PathVariable Long id, @RequestBody Producto productoActualizado) {
+        Producto productoModificado = servicio.modificar(id, productoActualizado);
+        if (productoModificado != null) {
+            return ResponseEntity.ok(productoModificado);
+        } else {
+            return ResponseEntity.notFound().build();
+        }
     }
 
     //Nuevo método
