@@ -11,12 +11,12 @@ Para enfrentar esta problemática, el proyecto busca remplaazar el antiguo siste
 
 ## 🧩 Arquitectura de Microservicios
 
-> El sistema está estructurado por dos **microservicios**, llamados "usuarioservice" y "productservice" los cuales nos permiten manipular datos ya sean de los usuarios o los productos correspondientemente.
+El sistema está estructurado por dos **microservicios**, llamados "usuarioservice" y "productservice" los cuales nos permiten manipular datos ya sean de los usuarios o los productos correspondientemente.
 
 ### Microservicios Desarrollados
 
-- `usuarioservice`: > 📝 Nos permite manipular y almacenar distintos datos en la base de datos de los usuarios.
-- `productservice`: > 📝 Nos permite manipular y almacenar distintos datos en la base de datos de los productos.
+- `usuarioservice`: > 📝 Permite manipular y almacenar distintos datos en la base de datos de los usuarios.
+- `productservice`: > 📝 Permite manipular y almacenar distintos datos en la base de datos de los productos.
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -24,7 +24,7 @@ Para enfrentar esta problemática, el proyecto busca remplaazar el antiguo siste
 * Maven
 * Postman
 * GitHub
-* Intellij
+* IntelliJ IDEA
 * Laragon
 
 ## 🗄️ Configuración de Bases de Datos
@@ -98,9 +98,8 @@ Para conectar de forma correcta la base de datos, agregamos propiedades a "appli
 > 📝 Explicar cómo se organizó el trabajo en ramas (`master`, `pruebas`), frecuencia de commits y cómo se coordinaron como equipo.
 
 ## 📈 Lecciones Aprendidas
-
-> 📝 Reflexionar brevemente sobre qué aprendieron durante el desarrollo del proyecto (técnico y en trabajo en equipo).
-
+A lo largo de nuestro trabajo en este proyecto, conseguimos mejorar nuestras habilidades a la hora de manejar herramientas como bases de datos o creacion de microservicios. 
+Además, aprendimos varias cosas tales como comprender de una mejor manera como es la estructura de los microservicios, también fortalecimos nuestro trabajo en equipo al enfrentar una problematica real que podemos encontrar en el mundo del desarrollo de software.
 ---
 
 [Guía Oficial en Notion – Evaluación Parcial 2 (35%)](https://quilt-canary-969.notion.site/Gu-a-Oficial-Evaluaci-n-Parcial-2-35-1f75b3c4e31280aaab79c9a71f1cfb7b?pvs=4)
