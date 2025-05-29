@@ -17,6 +17,7 @@ El sistema está estructurado por dos **microservicios**, llamados "usuarioservi
 
 - `usuarioservice`: > 📝 Permite manipular y almacenar distintos datos en la base de datos de los usuarios.
 - `productservice`: > 📝 Permite manipular y almacenar distintos datos en la base de datos de los productos.
+- `pedidoservice` : > 📝 Permite manipular y almacenar distintos datos en la base de datos de los pedidos.
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -106,7 +107,7 @@ Para conectar de forma correcta la base de datos, agregamos propiedades a "appli
 
 ## 📂 Estructura del Repositorio
 
-> Cada carpeta corresponde a un microservicio separado con su propio `pom.xml`, en este caso los microservicios son Usuario, Producto y un Pedido.
+> Cada carpeta corresponde a un microservicio separado con su propio `pom.xml`, en este caso los microservicios son Usuario, Producto y Pedido.
 
 ```
 
@@ -120,7 +121,10 @@ Para conectar de forma correcta la base de datos, agregamos propiedades a "appli
 
 ## 👥 Colaboración en GitHub
 
-> 📝 Explicar cómo se organizó el trabajo en ramas (`master`, `pruebas`), frecuencia de commits y cómo se coordinaron como equipo.
+En nuestro caso nos dividimos las tareas, por lo tanto no tenemos muchas ramas en las que se subieron los avances. Lo que hicimos cada uno fue hacer la parte que se le asignó y posteriormente fue sibudo al main.
+Fabián Reyes: Microservicios y codigo.
+Matías Vargas: Documento, repositorio/Readme.
+Martín Rivas: Archivo Readme.
 
 ## 📈 Lecciones Aprendidas
 A lo largo de nuestro trabajo en este proyecto, conseguimos mejorar nuestras habilidades a la hora de manejar herramientas como bases de datos o creacion de microservicios. 
