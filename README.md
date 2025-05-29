@@ -84,7 +84,7 @@ Para conectar de forma correcta la base de datos, agregamos propiedades a "appli
 > 3.-Uso del DELETE
 > ![image](https://github.com/user-attachments/assets/6b63f74f-928c-466e-b5c7-a5eb617f8d0d)
 
-#Prueba del Postman
+##Prueba del Postman
 1.- Muestra del PATCH
 ![image](https://github.com/user-attachments/assets/f4924370-84fe-4f15-93b3-d3711a6d2e22)
 2.-  Uso del POST
