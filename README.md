@@ -69,32 +69,29 @@ Para conectar de forma correcta la base de datos, agregamos propiedades a "appli
 
 ## 📮 Endpoints y Pruebas
 
-> 📝 Especificar los principales endpoints disponibles por microservicio (CRUD y llamadas entre servicios).  
-> Incluir capturas o descripciones de pruebas realizadas con Postman (mínimo 3 por micro-servicio).
->
-> * GET /users Lista todos los usuarios registrados.
-> * POST /users Guarda (crea) un nuevo usuario en el sistema.
-> * DELETE /users/{id} Elimina un usuario existente por su ID.
-> * PATCH /user/{id} Modifica un usuario existente por su ID.
->   
->1.- Muestreo de uso del GET en el postman
-> ![image](https://github.com/user-attachments/assets/7564d6d5-fc34-4df2-ac83-846f94fa0c33)
+* GET /users Lista todos los usuarios registrados.
+* POST /users Guarda (crea) un nuevo usuario en el sistema.
+* DELETE /users/{id} Elimina un usuario existente por su ID.
+* PATCH /user/{id} Modifica un usuario existente por su ID.
+   
+1.- Muestreo de uso del GET en el postman
+ ![image](https://github.com/user-attachments/assets/7564d6d5-fc34-4df2-ac83-846f94fa0c33)
 
-> 2.- Uso del POST
-> ![image](https://github.com/user-attachments/assets/ca575701-d270-4a5f-9c90-3dba38d20498)
+ 2.- Uso del POST
+ ![image](https://github.com/user-attachments/assets/ca575701-d270-4a5f-9c90-3dba38d20498)
 
-> 3.-Uso del DELETE
-> ![image](https://github.com/user-attachments/assets/6b63f74f-928c-466e-b5c7-a5eb617f8d0d)
+ 3.-Uso del DELETE
+ ![image](https://github.com/user-attachments/assets/6b63f74f-928c-466e-b5c7-a5eb617f8d0d)
 
-> ## Prueba del Postman
+## Prueba del Postman
 1.- Muestra del PATCH
 ![image](https://github.com/user-attachments/assets/f4924370-84fe-4f15-93b3-d3711a6d2e22)
 2.-  Uso del POST
-> ![image](https://github.com/user-attachments/assets/ca575701-d270-4a5f-9c90-3dba38d20498)
+ ![image](https://github.com/user-attachments/assets/ca575701-d270-4a5f-9c90-3dba38d20498)
 3.- Muestreo de uso del GET en el postman
-> ![image](https://github.com/user-attachments/assets/7564d6d5-fc34-4df2-ac83-846f94fa0c33)
+ ![image](https://github.com/user-attachments/assets/7564d6d5-fc34-4df2-ac83-846f94fa0c33)
 4.-Uso del DELETE
-> ![image](https://github.com/user-attachments/assets/6b63f74f-928c-466e-b5c7-a5eb617f8d0d)
+![image](https://github.com/user-attachments/assets/6b63f74f-928c-466e-b5c7-a5eb617f8d0d)
 
 
 
@@ -123,9 +120,10 @@ Para conectar de forma correcta la base de datos, agregamos propiedades a "appli
 ## 👥 Colaboración en GitHub
 
 En nuestro caso nos dividimos las tareas, por lo tanto no tenemos muchas ramas en las que se subieron los avances. Lo que hicimos cada uno fue hacer la parte que se le asignó y posteriormente fue subido al main.
-Fabián Reyes: Microservicios y codigo.
-Matías Vargas: Documento, repositorio/Readme.
-Martín Rivas: Archivo Readme.
+
+*Fabián Reyes: Microservicios.
+*Matías Vargas: Encargo, repositorio/Readme.
+*Martín Rivas: Archivo Readme.
 
 ## 📈 Lecciones Aprendidas
 A lo largo de nuestro trabajo en este proyecto, conseguimos mejorar nuestras habilidades a la hora de manejar herramientas como bases de datos o creacion de microservicios. 
