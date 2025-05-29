@@ -11,7 +11,7 @@ Para enfrentar esta problemática, el proyecto busca remplaazar el antiguo siste
 
 ## 🧩 Arquitectura de Microservicios
 
-El sistema está estructurado por dos **microservicios**, llamados "usuarioservice" y "productservice" los cuales nos permiten manipular datos ya sean de los usuarios o los productos correspondientemente.
+El sistema está estructurado por dos **microservicios**, llamados "usuarioservice", "productservice"  y "pedidoservice" los cuales nos permiten manipular datos ya sean de los usuarios, pedidos o los productos correspondientemente.
 
 ### Microservicios Desarrollados
 
@@ -75,6 +75,7 @@ Para conectar de forma correcta la base de datos, agregamos propiedades a "appli
 > * GET /users Lista todos los usuarios registrados.
 > * POST /users Guarda (crea) un nuevo usuario en el sistema.
 > * DELETE /users/{id} Elimina un usuario existente por su ID.
+> * PATCH /user/{id} Modifica un usuario existente por su ID.
 >   
 >1.- Muestreo de uso del GET en el postman
 > ![image](https://github.com/user-attachments/assets/7564d6d5-fc34-4df2-ac83-846f94fa0c33)
@@ -121,7 +122,7 @@ Para conectar de forma correcta la base de datos, agregamos propiedades a "appli
 
 ## 👥 Colaboración en GitHub
 
-En nuestro caso nos dividimos las tareas, por lo tanto no tenemos muchas ramas en las que se subieron los avances. Lo que hicimos cada uno fue hacer la parte que se le asignó y posteriormente fue sibudo al main.
+En nuestro caso nos dividimos las tareas, por lo tanto no tenemos muchas ramas en las que se subieron los avances. Lo que hicimos cada uno fue hacer la parte que se le asignó y posteriormente fue subido al main.
 Fabián Reyes: Microservicios y codigo.
 Matías Vargas: Documento, repositorio/Readme.
 Martín Rivas: Archivo Readme.
