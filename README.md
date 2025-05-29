@@ -5,13 +5,12 @@ Este repositorio contiene el desarrollo técnico del sistema basado en microserv
 
 ## 📦 Descripción General del Proyecto
 
-Perfulandia SPA es una empresa chilena en expansión, con nuevas sucursales en Concepción y Viña del Mar. Su sistema actual, de arquitectura monolítica, ha comenzado a presentar problemas de rendimiento y disponibilidad, afectando las operaciones diarias y la experiencia del cliente.
+La empresa Perfulandia ha comenzado a abrir sedes en Concepción y Viña del Mar, expandiéndose en el negocio, por lo tanto quieren abrir aún más sedes, pero tienen un problema, este es que su actual sistema de software monolítico a empezado a limitarse. Mostrando problemas de rendimiento y disponibilidad que pone en riesgo las operaciones diarias y la satisfacción del cliente.
 
 Para enfrentar esta problemática, el proyecto busca remplaazar el antiguo sistema monolítico por una arquitectura de microservicios, de esta forma Perfulandia podrá mejorar su rendimiento, disponibilidad y capacidad de respuesta ante el crecimiento del negocio, asegurando así la satisfacción del cliente además del éxito a largo plazo.
 
 ## 🧩 Arquitectura de Microservicios
 
-> 📝 Describir cómo está estructurado el sistema en microservicios. Pueden incluir un diagrama y explicar brevemente la función de cada servicio.
 > El sistema está estructurado por dos **microservicios**, llamados "usuarioservice" y "productservice" los cuales nos permiten manipular datos ya sean de los usuarios o los productos correspondientemente.
 
 ### Microservicios Desarrollados
